@@ -1,0 +1,20 @@
+# Python
+python_service/venv/
+python_service/__pycache__/
+python_service/*.pyc
+python_service/.env
+
+# Node
+server/node_modules/
+server/.env
+
+# React
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
+client/.env.production
+
+# General
+.DS_Store
+Thumbs.db
