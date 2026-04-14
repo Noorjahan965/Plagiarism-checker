@@ -23,6 +23,8 @@ import logging
 import requests
 
 import nltk
+for _pkg in ["punkt", "stopwords", "wordnet", "omw-1.4", "averaged_perceptron_tagger_eng", "punkt_tab"]:
+    nltk.download(_pkg, quiet=True)
 from nltk.corpus   import stopwords, wordnet
 from nltk.stem     import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
